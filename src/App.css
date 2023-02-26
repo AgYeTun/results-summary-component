@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.txt-primary {
+  color: white;
+}
+
+.txt-secondary {
+  color: #ffffffac;
+}
+
+.txt-danger {
+  color: #303b5a;
+}
+
+.txt-red {
+  color: #ff5757;
+}
+
+.txt-yellow {
+  color: #ffb01f;
+}
+
+.txt-green {
+  color: #00bd91;
+}
+
+.txt-blue {
+  color: #1125d4;
+}
+
+.txt-gray {
+  color: rgba(128, 128, 128, 0.747);
+}
+
+.bg-red{
+  background-color: #ff575710;
+}
+
+.bg-yellow {
+  background-color: #ffb01f10;
+}
+
+.bg-green {
+  background-color: #00bd9110;
+}
+
+.bg-blue {
+  background-color: #1125d410;
+}
+
+.bg-danger {
+  background-color: #303b5a !important;
+}
+
+.main {
+  height: 100vh;
+}
+
+
+.card {
+  max-width: 740px;
+}
+
+.card-1 {
+  background: rgb(120,87,255);
+  background: linear-gradient(180deg, rgba(120,87,255,1) -10%, rgba(46,43,233,1) 90%);
+  text-align: center;
+}
+
+.score-block {
+  width: 200px;
+  height: 200px;
+  background: rgb(78,33,202);
+  background: linear-gradient(180deg, rgba(78,33,202,1) 0%, rgba(36,33,202,0) 200%);
+}
+
+.score-block h3 {
+  font-size: 80px;
+}
+
+button p {
+  font-size: 19px;
+}
+
+.btn-bg {
+  cursor: pointer;
+  background: linear-gradient(0deg, #303b5a, transparent) #303b5a;
+  transition: all 0.5s;
+}
+
+.btn-bg:hover, .btn-bg:focus {
+  background-color: rgb(78,33,202);
+}
+
+@media (max-width: 575px) {
+  .main {
+    height: 100%;
+  }
+  .card {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    padding-bottom: 20px;
+  }
+  .card-1 {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+}
+
+
