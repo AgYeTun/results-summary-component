@@ -6,16 +6,26 @@ import axios from "axios";
 
 const App = () => {
 
+  // Fetch Data
+
   const [results, setResults] = useState([])
 
   const getResults = async() => {
     const {data} = await axios.get('http://localhost:3000/results')
     setResults(data)
   }
-
+  
   useEffect(() => {
     getResults()
   },[])
+  
+  // Cal Average Result
+
+  const totalResult = results?.reduce((pre,cur) => {
+    return pre + cur?.score
+  }, 0)
+
+  const avgResult = totalResult / results?.length
 
   return (
     <div className="container-fluid">
@@ -26,7 +36,7 @@ const App = () => {
               <div className="card-body card-1 rounded-5 px-5">
                 <h5 className="card-title txt-secondary my-4">Your Result</h5>
                 <div className="score-block d-flex flex-column justify-content-center align-items-center mx-auto my-4 bg-primary rounded-circle">
-                  <h3 className="txt-primary mb-0 fw-bold">76</h3>
+                  <h3 className="txt-primary mb-0 fw-bold">{avgResult?.toFixed(0)}</h3>
                   <p className="txt-secondary mb-0">of 100</p>
                 </div>
                 <div className="">
@@ -55,7 +65,7 @@ const App = () => {
                   ))}
 
                 </div>
-                <div className="main-btn btn-bg w-100 py-3 mt-5 rounded-pill text-center">
+                <div className="btn-bg w-100 py-3 mt-5 rounded-pill text-center">
                   <p className="txt-primary">Continue</p>
                 </div>
               </div>

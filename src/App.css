@@ -101,7 +101,7 @@ button p {
 }
 
 .btn-bg:hover, .btn-bg:focus {
-  background-color: rgb(78,33,202);
+  background-color: rgb(120,87,255);
 }
 
 @media (max-width: 575px) {
