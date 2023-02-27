@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-component-using-html-css-bootstrap-and-reactjs-HUxlA3tlIw)
+- Live Site URL: [Vercel](https://results-summary-component-six.vercel.app/)
 
 ## My process
 
