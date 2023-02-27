@@ -65,6 +65,7 @@ I learned how to use hover effect with gradient color.
 
 - [CSS Gradient](https://cssgradient.io/) - This helped me for making gradient color. I really liked this pattern and will use it going forward.
 - [Stack Diary](https://stackdiary.com/gradient-hover-effect-css/) - This is an amazing article which helped me finally understand how to use hover effect with gradient colors. I'd recommend it to anyone still learning this concept.
+- [kitloong](https://github.com/kitloong/json-server-vercel) - This is the templater to deploy json-server on vercel. I'd recommend it to anyone who want to use json fake server on online.
 
 ## Author
 

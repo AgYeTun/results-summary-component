@@ -11,7 +11,7 @@ const App = () => {
   const [results, setResults] = useState([])
 
   const getResults = async() => {
-    const {data} = await axios.get('http://localhost:3000/results')
+    const {data} = await axios.get('https://results-summary-api.vercel.app/results')
     setResults(data)
   }
   
