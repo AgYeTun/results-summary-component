@@ -36,7 +36,7 @@ const App = () => {
               <div className="card-body card-1 rounded-5 px-5">
                 <h1 className="card-title txt-secondary my-4 h5">Your Result</h1>
                 <div className="score-block d-flex flex-column justify-content-center align-items-center mx-auto my-4 bg-primary rounded-circle">
-                  <h3 className="txt-primary mb-0 fw-bold">{avgResult?.toFixed(0)}</h3>
+                  <h2 className="txt-primary mb-0 fw-bold h3">{avgResult?.toFixed(0)}</h2>
                   <p className="txt-secondary mb-0">of 100</p>
                 </div>
                 <div className="">
