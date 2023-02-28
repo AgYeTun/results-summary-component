@@ -34,7 +34,7 @@ const App = () => {
           <div className="row g-0">
             <div className="col-sm-6">
               <div className="card-body card-1 rounded-5 px-5">
-                <h2 className="card-title txt-secondary my-4 h5">Your Result</h2>
+                <h1 className="card-title txt-secondary my-4 h5">Your Result</h1>
                 <div className="score-block d-flex flex-column justify-content-center align-items-center mx-auto my-4 bg-primary rounded-circle">
                   <h3 className="txt-primary mb-0 fw-bold">{avgResult?.toFixed(0)}</h3>
                   <p className="txt-secondary mb-0">of 100</p>
@@ -50,7 +50,7 @@ const App = () => {
             </div>
             <div className="col-sm-6">
               <div className="card-body card-2 px-5">
-                <h5 className="card-title my-4 pb-2 txt-danger fw-bold">Summary</h5>
+                <h1 className="card-title my-4 pb-2 txt-danger fw-bold h5">Summary</h1>
                 <div className="my-4">
                   {results?.map((result) => (
                     <div key={result?.id} className={`d-flex justify-content-between ${result?.bgColor} px-3 py-2 rounded-3 my-3`}>
